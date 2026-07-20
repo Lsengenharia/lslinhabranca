@@ -1,0 +1,305 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.banner{
+    width: 100%;
+    height: 98vh;
+    background-image:linear-gradient(#00000080,#00000080) ,url(../images/banner-kawaskaki-ninja-pc.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+}
+.banner h1{
+    color: #c2c3c2;
+    padding-top: 180px;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.banner span{
+    color: #6df954;
+}
+hr{
+    border: solid 2px #fff;
+    height: 2px;
+    width: 18%;
+    margin: 10px auto;
+    background: #fff;
+    opacity: 1;
+}
+.frase{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.frase p{
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 200;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2px;
+}
+.frase a{
+    width: 220px;
+    height: 60px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: all 0.2s ease-in-out;
+    border: solid 1px #ffffffe6;
+    border-radius: 30px;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.frase a:hover{
+  background: #f1f1f1;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px #00000040;
+  color: #000;
+}
+.sobre-honda{
+    width: 100%;
+    height: 450px;
+    background-image:linear-gradient(#000000b3, #000000b3), url(../images/kawasaki-versys-1.webp);
+    background-position: 100%, 100%;
+    background-size: 100%, 104%;
+    background-repeat: no-repeat;
+    border: solid 2px #f1f1f1;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.sobre-honda h3{
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 40px;
+    padding-top: 20px;
+}
+.sobre-honda img{
+    width: 50%;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+.sobre-honda p{
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    line-height: 1.4;
+    letter-spacing: 0.6px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sobre-honda a{
+    width: 220px;
+    height: 60px;
+    background: transparent;
+    border: solid 2px #f1f1f1;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    margin-top: 20px;
+}
+.sobre-honda a:hover{
+    transition: all 0.2s ease-in-out;
+    background: #f1f1f1;
+    color: #000;
+}
+.ficha-tecnica{
+    width: 100%;
+    margin-top: 20px;
+}
+.ficha-tecnica i{
+    font-size: 20px;
+    color: #000;
+}
+.ficha-tecnica h3{
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+.tech-card {
+    width: 100%;
+    height: 300px;
+  transition: all 0.3s ease;
+}
+
+.text-secondary p{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2;
+    color: #ffffffec;
+}
+.tech-card:hover {
+  transform: translateY(-6px);
+  border-color: #c90202 !important;
+}
+
+.letter-spacing {
+  letter-spacing: 1px;
+}
+.card p.text-secondary{
+    width: 90%;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+.card-btn a{
+    width: 220px;
+    height: 60px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: all 0.2s ease-in-out;
+    border: solid 1px #ffffffe6;
+    border-radius: 30px;
+    padding: 8px;
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 20px;
+    background-color: #ffffffec;
+    transition: all 0.2s ease-in-out;
+}
+.card-btn a:hover{
+  box-shadow: #ff00006e 0px 3px 8px !important;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px #00000040;
+  color: #000;
+   transition: all 0.2s ease-in-out;
+}
+.card-body{
+    height: 500px;
+    padding-bottom: 20px;
+}
+.card p{
+    font-size: 0.8rem;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+    margin-left: -20px;
+    text-align: left;
+}
+.galeria-motos{
+    width: 100%;
+    height: 480px;
+    background-image: url(../images/fundo-preto-slide.png);
+    background-repeat: no-repeat;
+    background-position: 100%, 100%;
+    background-size: 100% 100%;
+}
+.galeria-motos img{
+    width: 50%;
+    height: 400px;
+    border-radius: 10px;
+    border: solid 2px #f1f1f1;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+}
+.galeria-btn a{
+    width: 220px;
+    height: 60px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: all 0.2s ease-in-out;
+    border: solid 1px #ffffffe6;
+    border-radius: 30px;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+.txt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.form label{
+    color: #f1f1f1;
+}
+@media screen and (max-width: 878px) {
+    .banner{
+    width: 100%;
+    height: 98vh;
+    padding: 40px;
+    background-image:linear-gradient(#00000080,#00000080) ,url(../images/banner-kawaskaki-ninja-mobile.webp);
+    background-size: 131%, 146%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-attachment: local;
+    }
+    .banner h1{
+        font-size: 1.5rem;
+    }
+    .banner a{
+        background: #f5f5f5;
+        font-size: 16px;
+        text-align: center;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .sobre-honda{
+        width: 100%;
+        height: 98vh;
+        background-image:linear-gradient(#00000080, #00000080), url(../images/honda-cbr-motor.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .frase p{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .frase a{
+        color: #000;
+        font-size: 1rem;
+    }
+    .info p{
+        margin-top: -65px;
+    }
+     .form h2{
+        color: #fff;
+        font-size: 2.5rem;
+    }
+    .form textarea{
+        width: 80%;
+    }
+
+    .card-body{
+        height: auto;
+    }
+    .card p{
+        font-size: 14px;
+        text-align: center;
+        margin-left: -37px;
+        margin-right: 5px;
+    }
+    .tech-card img{
+    width: 150px;
+    border-radius: 20px;
+}
+    .galeria-motos img{
+        width: 50%;
+        height: auto;
+        margin-top: 70px;
+    }
+     ::placeholder{
+        text-align: left;
+    }
+    .form label{
+        text-align: center;
+    }
+    .form input{
+        width: 87%;
+        margin-left: 40px;
+    }
+    .form textarea{
+        width: 90%;
+    }
+    .form button{
+        width: 40%;
+    }
+}

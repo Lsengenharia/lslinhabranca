@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/fundo-forms.png);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    padding: 0px 1rem;
+}
+.logo img {
+    width: 50px;
+    margin-left: 2rem;
+}
+.interface {
+    max-width: 1280px;
+    max-height: 900vh;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.form label{
+    text-align: left;
+}
+footer {
+    width: 100%;
+    padding: 30px 0px;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+}
+footer .top-footer a {
+ text-decoration: none;   
+}
+
+footer .top-footer button {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    border: solid 1px #fff;
+    background-color: transparent;
+    color: #f1f1f1;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+    margin:1rem;
+    cursor: pointer;
+}
+footer p {
+    text-shadow: 1px 1px 1px #00000080;
+}
+footer .top-footer button:hover {
+    transition: all .5s ease-in-out;
+    background: #fff;
+    color: #000;
+}
+
+@media screen and(max-width:878px) {
+    .form label{
+    text-align: center;
+    color: #fff;
+} 
+}
