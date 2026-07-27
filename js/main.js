@@ -4,7 +4,7 @@ document.addEventListener("scroll", () => {
     navBar.classList.toggle("rolar", scrollTop > 0);
 });
 const element = document.querySelector("#text");
-const text = "Praticidade e Tecnologia";
+const text = "Praticidade e Tecnologia para o seu dia a dia";
 const interval = 200;
 function showTxt(element, text, interval) {
     const char = text.split("").reverse();
