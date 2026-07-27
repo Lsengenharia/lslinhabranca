@@ -101,9 +101,12 @@ header .interface {
 
 header .logo img {
     max-width: 90px;
+    max-height: 90px;
     margin-top: -10px;
-    border-radius: 30px;
+    margin-left: 453px;
+    border-radius: 27px;
     object-fit: cover;
+    padding-left: 10px;
 }
 
 header .logo img.logo-preta {
@@ -144,6 +147,7 @@ header.rolar .logo .logo-branca {
 
 header.rolar .logo .logo-preta {
     display: block;
+    border-radius: 5px;
 }
 /* fim menu dinanmico */
 
@@ -280,7 +284,7 @@ section.hero-site {
     padding: 120px, 0px;
 }
 .hero-site .txt-hero h2{
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     line-height: 70px;
     font-weight: 100;
     margin-top: 15rem;
@@ -294,7 +298,9 @@ section.hero-site {
     color: #ffffffe6;
     font-family: "Barlow Condensed", sans-serif;
 }
-
+#text {
+    font-size: 25px;
+}
 .hero-site .txt-hero p{
     font-size: 15px;
     font-weight: 300;
