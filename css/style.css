@@ -89,7 +89,7 @@ header {
     top: 0;
     left: 0;
     transition: all .5s ease-in-out;
-    background: #01163129;
+    background: transparent;
     z-index: 5;
 }
 
@@ -147,7 +147,7 @@ header.rolar .logo .logo-branca {
 
 header.rolar .logo .logo-preta {
     display: block;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 /* fim menu dinanmico */
 
